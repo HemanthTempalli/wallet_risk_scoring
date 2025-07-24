@@ -1,0 +1,71 @@
+
+================================================================================
+                    COMPOUND WALLET RISK ANALYSIS REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+Total Wallets Analyzed: 103
+Active Compound Users: 0
+Analysis Date: 2025-07-24 19:54:52
+
+RISK DISTRIBUTION
+-----------------
+Low Risk (0-300):      103 wallets (100.0%)
+Medium Risk (301-700):    0 wallets (  0.0%)
+High Risk (701-1000):     0 wallets (  0.0%)
+
+STATISTICAL OVERVIEW
+--------------------
+Mean Risk Score:         161.6
+Median Risk Score:       170.0
+Standard Deviation:       17.9
+Risk Score Range:      110 - 223
+
+TOP 10 HIGHEST RISK WALLETS
+----------------------------
+ 1. 0x427f2ac5fdf4245e027d767e7c3ac272a1f40a65 - Score: 223
+ 2. 0x4814be124d7fe3b240eb46061f7ddfab468fe122 - Score: 214
+ 3. 0x06b51c6882b27cb05e712185531c1f74996dd988 - Score: 170
+ 4. 0x0795732aacc448030ef374374eaae57d2965c16c - Score: 170
+ 5. 0x0aaa79f1a86bc8136cd0d1ca0d51964f4e3766f9 - Score: 170
+ 6. 0x0fe383e5abc200055a7f391f94a5f5d1f844b9ae - Score: 170
+ 7. 0x104ae61d8d487ad689969a17807ddc338b445416 - Score: 170
+ 8. 0x111c7208a7e2af345d36b6d4aace8740d61a3078 - Score: 170
+ 9. 0x13b1c8b0e696aff8b4fee742119b549b605f3cbc - Score: 170
+10. 0x1724e16cb8d0e2aa4d08035bc6b5c56b680a3b22 - Score: 170
+
+TOP 10 LOWEST RISK WALLETS
+---------------------------
+ 1. 0x612a3500559be7be7703de6dc397afb541a16f7f - Score: 110
+ 2. 0x96479b087cb8f236a5e2dcbfc50ce63b2f421da6 - Score: 110
+ 3. 0x0039f22efb07a647557c7c5d17854cfd6d489ef3 - Score: 113
+ 4. 0x70d8e4ab175dfe0eab4e9a7f33e0a2d19f44001e - Score: 120
+ 5. 0xcbbd9fe837a14258286bbf2e182cbc4e4518c5a3 - Score: 123
+ 6. 0x22d7510588d90ed5a87e0f838391aaafa707c34b - Score: 130
+ 7. 0x4839e666e2baf12a51bf004392b35972eeddeabf - Score: 130
+ 8. 0x880a0af12da55df1197f41697c1a1b61670ed410 - Score: 130
+ 9. 0x8be38ea2b22b706aef313c2de81f7d179024dd30 - Score: 130
+10. 0xa7f3c74f0255796fd5d3ddcf88db769f7a6bf46a - Score: 130
+
+METHODOLOGY SUMMARY
+-------------------
+Risk scoring is based on 7 key dimensions:
+- Leverage Risk (25%): Higher leverage ratios indicate increased risk
+- Liquidation Risk (20%): Past liquidations and low health factors
+- Utilization Risk (15%): High utilization of available credit
+- Volatility Risk (15%): Irregular transaction patterns
+- Concentration Risk (10%): Limited asset diversification
+- Activity Risk (10%): Unusual activity patterns
+- Size Risk (5%): Extremely large positions
+
+Scores range from 0 (lowest risk) to 1000 (highest risk).
+
+DATA QUALITY NOTES
+-------------------
+- Analysis based on Compound V2/V3 protocol interactions
+- Price data estimated using simplified models
+- Health factors calculated using 75% collateral ratio assumption
+- Wallets with no Compound activity assigned default risk scores
+
+================================================================================
